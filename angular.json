@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "GHSMediaProject": {
@@ -117,8 +117,16 @@
               "devServerTarget": "GHSMediaProject:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "GHSMediaProject"
+    }
+  },
+  "defaultProject": "GHSMediaProject",
+  "cli": {
+    "analytics": "b59d8dbe-4ca2-4ee8-ac61-ec65b3ea346c"
+  }
 }
