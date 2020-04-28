@@ -105,7 +105,7 @@ export class DataComponentComponent implements OnInit {
       animationEnabled: true,
       exportEnabled: true,
       title: {
-        text: 'Black Woman Industry Break Down'
+        text: 'Black Women Industry Break Down'
       },
       data: [{
         type: 'pie',
