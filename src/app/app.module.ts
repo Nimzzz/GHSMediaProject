@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatListModule} from '@angular/material/list';
+import { DataComponentComponent } from './data-component/data-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DataComponentComponent
   ],
   imports: [
     BrowserModule,
