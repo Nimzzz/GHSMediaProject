@@ -5,7 +5,9 @@
 .mat-body-1 {
   font-size: 16px;
   text-align: left;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 
 .mat-tab-label.mat-tab-label-active {
